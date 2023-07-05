@@ -1,0 +1,146 @@
+@charset "utf-8";
+
+.inner{
+    width: 960px;
+    margin: 0 auto;
+    padding: 0% 4%;
+}
+
+/*body*/
+
+.header{
+    width: 960px;
+    margin:0 auto;
+    display: block;
+    background-color: #fff;
+    padding: 15px 4%;
+}
+
+/*flexとjustify-content: space-between;でitemを均等配置にする*/
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.title-logo{
+    display: inline-block;
+}
+.logo{
+    display: inline-block;
+    background-color: #383e45;
+    text-align: center;
+    font-size: 27px;
+    color: #fff;
+    padding: 5px 15px;
+    font-weight: bold;
+}
+.nav-box{
+    display: flex;
+    flex-direction: row;
+}
+
+.btn-text{
+    display: inline-block;
+    background-color: #fff;
+    font-size: 15px;
+    text-decoration: none;/*下線なし*/
+    color: black;
+
+}
+
+/*main*/
+/*keyvisuyal*/
+.keyvisual{
+    width: 100%;
+    height: 600px;
+    display: block;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url("../img/mainvisual.png");/*パス注意*/
+}
+
+/*about*/
+.about-inner{
+    padding: 70px 0;
+}
+
+.title-box1{
+    width: 100%;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.title1{
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: auto;
+}
+
+/*または title-box1にborder-bottom: 1px solid;で下線を表示*/
+
+.personal-box{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon{
+    width: 100px;
+    margin: 30px;
+}
+.text-box{
+    text-align: left;
+}
+.icon-img{
+    width: 100%;
+    border-radius: 360px;
+}
+.name-box{
+    padding-bottom: 25px;
+}
+.name{
+    font-weight: bold;
+}
+
+/*bicycle*/
+
+.bicycle-inner{
+    padding-bottom:70px;
+}
+
+.bicycle-ul{
+    display: flex;
+}
+.bicycle-li{
+    list-style: none;
+    width: 300px;
+    margin-left: 30px;
+}
+
+.bicycle-li:first-child{
+    margin-left: 0px;
+}
+
+.bicycle-img{
+    max-width: 100%;
+    width: 300px;
+}
+
+.bicycle1-title{
+    display: block;
+}
+.imgtitle-box{
+    font-weight: bold;
+    text-align: center;
+}
+.imgtext-box{
+    text-align: center;
+}
+
+.copyright{
+    text-align: center;
+}
